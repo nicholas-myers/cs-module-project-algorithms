@@ -50,7 +50,6 @@ class Test(unittest.TestCase):
         answer = moving_zeroes(arr)
 
         self.assertEqual(len(answer), len(arr)) 
-
         for x in answer[:3]:
             self.assertTrue(x in arr)
             self.assertTrue(x != 0)

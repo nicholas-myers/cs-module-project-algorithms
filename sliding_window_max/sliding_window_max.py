@@ -4,8 +4,9 @@ Returns: a List of integers
 '''
 def sliding_window_max(nums, k):
     # Your code here
-
-    pass
+    window = nums[:k]
+    
+    
 
 
 if __name__ == '__main__':
